@@ -10,13 +10,13 @@ The Category class provides the following functionalities:
         
         * An instance variable called a ledger is a list that records all the transactions.
 
-  2- Deposit Method:
+#  2- Deposit Method:
         
         * Accepts an amount and an optional description (defaults to an empty string if not provided).
         
         * Appends an object to the ledger list in the form of {"amount": amount, "description": description}.
 
-  3- Withdraw Method:
+#  3- Withdraw Method:
         
         * Similar to the deposit method, but the amount is stored as a negative number.
         
@@ -24,11 +24,11 @@ The Category class provides the following functionalities:
         
         * Returns True if the withdrawal is successful, and False otherwise.
 
-  4- Get Balance Method:
+#  4- Get Balance Method:
        
         * Returns the current balance of the budget category based on the deposits and withdrawals.
 
-  5- Transfer Method:
+#  5- Transfer Method:
        
        * Accepts an amount and another budget category as arguments.
        
@@ -40,7 +40,7 @@ The Category class provides the following functionalities:
        
        * Returns True if the transfer is successful, and False otherwise.
 
-  6- Check Funds Method:
+#  6- Check Funds Method:
        
        * Accepts an amount as an argument.
        
@@ -48,7 +48,7 @@ The Category class provides the following functionalities:
        
        * Used by both the withdrawal and transfer methods.
 
-  7- String Representation:
+#  7- String Representation:
        
        * When the budget object is printed, it displays:
             
@@ -58,7 +58,7 @@ The Category class provides the following functionalities:
                 * The amount is right-aligned, with two decimal places, and displays a maximum of 7 characters.
             * A-line displaying the total balance of the category.
 
- Example:
+# Example:
 
     from budget import Category
 
@@ -74,7 +74,7 @@ The Category class provides the following functionalities:
     print(food)
     print(clothing)
 
-Output:
+# Output:
 
     *************Food*************
     initial deposit        1000.00
