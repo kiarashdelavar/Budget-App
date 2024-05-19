@@ -4,7 +4,7 @@ Features
 
 The Category class provides the following functionalities:
 
-  1- Initialization:
+#  1- Initialization:
         
         * When a category object is created, it is initialized with the name of the category.
         
